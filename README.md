@@ -17,11 +17,11 @@ want the secret key to be, agree on marker strings (the longer, more unique = th
 then decode. Simple as that. Enjoy!
 
 ### **Usage**
-stag.py <encode | decode> <image file> <text file>
+stag.py \<encode | decode\> \<image file\> \<text file\>
 
-The command can either be **encode** - where the **<text file>** is inserted into the **<image file>**,
-or **decode** - the **<image file>** is serched for a hidden message, then that message is saved to
-**<text file>**.
+The command can either be **encode** - where the **\<text file\>** is inserted into the **\<image file\>**,
+or **decode** - the **\<image file\>** is serched for a hidden message, then that message is saved to
+**\<text file\>**.
 
 ### **Notes**
 #####Dependencies:#####
