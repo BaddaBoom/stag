@@ -17,11 +17,11 @@ want the secret key to be, agree on marker strings (the longer, more unique = th
 then decode. Simple as that. Enjoy!
 
 ### **Usage**
-stag.py <encode | decode> <image file> <text file>
+stag.py \<encode | decode\> \<image file\> \<text file\>
 
-The command can either be **encode** - where the **<text file>** is inserted into the **<image file>**,
-or **decode** - the **<image file>** is serched for a hidden message, then that message is saved to
-**<text file>**.
+The command can either be **encode** - where the **\<text file\>** is inserted into the **\<image file\>**,
+or **decode** - the **\<image file\>** is serched for a hidden message, then that message is saved to
+**\<text file\>**.
 
 ### **Notes**
 #####Dependencies:#####
@@ -55,3 +55,5 @@ Lastly, this currently only supports PNG output (any RGB-based input can be give
 (compared to PNG which is lossless). This means that non-human-radible imperfections are removed when the
 image is created. This tends to remove parts of our message which is obviously a problem for many reasons.
 Future work will be trying to incorporate other lossless image types. GIF or BMP anybody? Anybody? ...
+
+-@BaddaBoom
