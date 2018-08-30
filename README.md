@@ -31,7 +31,7 @@ _PyCrypto_ which can be installed via pip (easy_install I am sure too)
 _PIL_ which can be installed via pip (easy_install I am sure too)
 	"pip install pillow"
 	
-#####A word of caution#####
+##### A word of caution #####
 This is just a proof of concept. If you actually do want to use this for covert communication channels
 then please be aware of a few things:
 	1. theres better reliability in unique markers (less false positives). The other side of the coin,
@@ -44,7 +44,7 @@ then please be aware of a few things:
 	the key each time a new message is generated*. Do this out of band (aka dont send the key in an email
 	that you will follow up with the encrypted message, silly.
 
-#####Miscellaneous#####
+##### Miscellaneous #####
 Sometimes you might get an error about decoding the binary. This is most likely due to a false positive
 marker that triggered either an incorrect beginning or an incorrect ending. It is not unusual for this to
 happen so I would suggest testing your messages before sending them. If you find that you require very long
@@ -55,5 +55,3 @@ Lastly, this currently only supports PNG output (any RGB-based input can be give
 (compared to PNG which is lossless). This means that non-human-radible imperfections are removed when the
 image is created. This tends to remove parts of our message which is obviously a problem for many reasons.
 Future work will be trying to incorporate other lossless image types. GIF or BMP anybody? Anybody? ...
-
--@BaddaBoom
